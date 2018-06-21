@@ -1,10 +1,6 @@
-# Project 2
+# Grace Rieflin - Course Assignment:
+*(completed March 2018)*
+## INFO 2300 - Intermediate Design and Programming for the Web - Project 2
 
-See the course web page for Project 2's requirements: [Project 2](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/blob/master/assignments/project-2/project-2.md) ([PDF](https://github.coecis.cornell.edu/info2300-sp2018/info2300-documents/blob/master/assignments/project-2/project-2.pdf)).
-
-# Submission Instructions
-
-See the respective **submit-*milestone*.md** file for each milestone for submission instructions.
-
-* Milestone 1: [submit-m1.md](submit-m1.md)
-* Final Submission: [submit-final.md](submit-final.md)
+For the first major project assignment for this course, students were asked to create single-page websites using their new familiarity with database management using SQLite. Because this project served as more of an introduction to handling data, the database was initially populated using DB Browser for SQLite, but later iterations of the site required developers to employ SQL Queries to add and remove entries from the database.
+Students were given no requirements for the subject of the project site, so I was inspired to create a database of Pokémon, forming a sort of 'PokéDex'. This site allows users to filter through entries by a variety of characteristics, and allows them to 'Create Your Own Pokémon' as fulfillment of the requirements of the assignment. I really had a lot of fun with this project, as you could imagine!
