@@ -1,0 +1,211 @@
+@font-face {
+  font-family:"Prosto One";
+  src: url("../fonts/ProstoOne-Regular.tff");
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Prosto One', sans-serif;
+}
+
+h1 a {
+  font-size: 40px;
+  color: navy;
+  margin-left: 20px;
+  text-shadow: 2px 2px yellow;
+}
+
+/*Formatting for Filter funtionalities*/
+#top_forms {
+  display: block;
+  box-sizing: border-box;
+  float:right;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  max-height: 170px;
+  width: 60vw;
+  font-size: 14px;
+  background-color: #fffed1;
+  border: 2px solid #515151;
+  border-radius: 15px 5px 15px 5px;
+  padding-left: 40px;
+  padding-bottom: 0px;
+}
+
+#search_form {
+  float: left;
+  width: 55%;
+}
+
+#filter_form {
+  float: left;
+  width: 40%;
+}
+
+#top_forms button {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+#filter_title {
+  line-height: 0;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-indent: -15px;
+  text-shadow: 0.5px 0.5px #c6c6c6;
+}
+
+#search_label {
+  overflow-x:visible;
+  text-decoration: underline;
+  text-indent: -15px;
+  text-shadow: 0.5px 0.5px #c6c6c6;
+}
+
+h6 {
+  font-variant: small-caps;
+  font-style: italic;
+  margin-top: 10px;
+  text-shadow: 0.5px 0.5px #c6c6c6;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+/*Messages formatting*/
+.message strong {
+  margin-left: 30px;
+  color: black;
+  padding:3px;
+  border: 2px solid red;
+}
+
+
+/*Formatting for Entries and Search Results*/
+#entry_results h2 {
+  margin-top: 80px;
+}
+
+#entry_results {
+  width: 87vw;
+  margin: auto;
+  display: inline-block;
+  margin-left: 5vw;
+  margin-right: 3vw;
+}
+
+.entry {
+  box-sizing: border-box;
+  float: left;
+  height: 130px;
+  width: 145px;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 3px;
+  background: #ff9000;
+  border: 2px solid #c97100;
+  border-radius: 15px 3px 15px 3px;
+}
+
+.monster_icon {
+  max-width: 40px;
+  margin-left:40px;
+  float: none;
+}
+
+.entry_types {
+  display: block;
+  float: right;
+  margin-right: 3px;
+  margin-left: 15px;
+}
+
+.entry_header {
+}
+
+.entry_number {
+  text-shadow: 1px 1px #ff6100;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.entry_name {
+  text-shadow: 1px 1px red;
+  font-size: 18px;
+  line-height: 2px;
+}
+
+
+/*Formatting for New Entry Form ("Create your own Pokémon!")*/
+#new_entry_form {
+  float: left;
+  width: 400px;
+  margin-left: 30vw;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #fffed1;
+  border: 2px solid #515151;
+  border-radius: 15px 5px 15px 5px;
+}
+
+#new_entry_form h3 {
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 0.5px 1px #c6c6c6;
+  text-decoration: underline;
+}
+
+#new_entry_form ul {
+  list-style: none;
+}
+
+#new_entry_form li {
+  padding: 10px;
+}
+
+#new_entry_form label {
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+
+.asterisk {
+  text-indent: 8px;
+  font-size: 8px;
+  color: #515151;
+  line-height: 0;
+  font-style: italic;
+}
+
+#traits {
+  border: 0.5px solid #515151;
+  width: 40%;
+  margin-left: 20%;
+}
+
+#traits h5 {
+  line-height: 0;
+  color: #515151;
+  margin-bottom: -5px;
+  margin-top: 10px;
+}
+
+#traits p {
+  text-indent: 10px;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+#traits img {
+  width: 40px;
+  position: relative;
+  top: 15px;
+  bottom: 15px;
+  margin-top: -15px;
+}
